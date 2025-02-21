@@ -93,7 +93,7 @@ function AddNewInterview() {
         onClick={() => setOpenDialog(true)}
       >
          <div className="flex items-center justify-center">
-          <Image src={"/plus.gif"} alt="Add New Interview" width={50} height={50} className="rounded-2xl"/>
+          <Image src={"/plus.mp4"} alt="Add New Interview" width={50} height={50} className="rounded-2xl"/>
           <h2 className='font-bold text-center' style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)' }}>
             Add New Interview
           </h2>
