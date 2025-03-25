@@ -22,7 +22,7 @@ if('speechSynthesis' in window){
             <h2 className='my-5 text-md md:text-lg text-gray-300'>
                 {mockInterviewQuestion[activeQuestionIndex]?.question}
             </h2>
-            <Volume2 className='cursor-pointer' onClick={()=>textToSpeach(mockInterviewQuestion[activeQuestionIndex]?.question)}/>
+            <Volume2 className='cursor-pointer text-primary' onClick={()=>textToSpeach(mockInterviewQuestion[activeQuestionIndex]?.question)}/>
             <div className='border rounded-lg p-5 bg-blue-100 mt-20'>
                 <h2 className='flex gap-2 items-center text-primary'>
                     <Lightbulb/>
